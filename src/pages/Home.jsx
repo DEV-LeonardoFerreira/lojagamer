@@ -10,7 +10,7 @@ const Home = () => {
   ];
   return (
     <main className="px-[5%] mt-10 mb-16 grow">
-      <h2 className="titulo font-bold text-white text-3-xl">Jogos em <span className="font-bold text-[#99ff00]">Destaque</span></h2>
+      <h2 className="titulo font-bold text-3-xl">Jogos em Destaque</h2>
       <section className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-6">
 
         {games.map((game)=>(
